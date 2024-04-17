@@ -17,7 +17,7 @@ __author__ = "Ravy LEON FOUN LIN"
 
 #  Parsing.
 parser = argparse.ArgumentParser()
-parser.add_argument("-file", help="Path to the feather file")
+parser.add_argument("-file", help="Path to the csv file.")
 args = parser.parse_args()
 FILE = args.file
 
