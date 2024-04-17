@@ -15,7 +15,7 @@ __date__ = "15/02/2024"
 STRUCTURE = sys.argv[1]
 
 #  Path of the needed files.
-PATH = f"/dsimb/defense/boulayat/projet_long/replica1/{STRUCTURE}/martini/"
+PATH = STUCTURE
 
 #  Coordinate file.
 GRO = PATH+"protein.pdb"
